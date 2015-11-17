@@ -1,0 +1,451 @@
+/*--- Fonts ---*/
+@font-face {
+	font-family: 'Cabin-SemiBold';
+	src:url(../fonts/Cabin-SemiBold.ttf) format('truetype');
+}
+@font-face {
+	font-family: 'Cabin-Regular';
+	src:url(../fonts/Cabin-Regular.ttf) format('truetype');
+}
+/*--- Fonts ---*/
+
+/*--- Index-Page-Styling ---*/
+
+body {
+	background-color: #bc61d1;
+	font-family: Cabin-Regular;
+}
+.contact-form {
+    margin: 0 auto;
+    width: 40%;
+    background: #bc61d1;
+    text-align: center;	
+}
+h1 {
+    text-align: center;
+	color: #EEEFF1;
+	font-size: 40px;
+	margin-top: 80px;
+}
+.signin {
+    margin-top: 80px;
+    padding: 35px 0 20px 0;
+	background-color: #eeeff1;
+}
+.signin p {
+    margin-left: 1em;
+    margin-right: 1em;
+    color: darkslategray;
+}
+.signin input[type="text"] {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px 35px 10px 10px;
+    border: none;
+    width: 75%;
+	font-family: Cabin-Regular;
+	color: gray;
+}
+.signin  input[type="password"] {
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding: 10px 35px 10px 10px;
+    border: none;
+    width: 75%;
+	font-family: Cabin-Regular;
+	color: gray;
+}
+.signin input[type="submit"], button {
+    width: 83%;
+    height: 40px;
+	font-size: 16px;
+    background-color: #bc61d1;
+    border: none;
+	color: #e3ecf4;
+	cursor: pointer;
+	outline: none;
+}
+input[type="submit"]:hover {
+    background-color: #926cd0;
+	-webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+form p {
+    color: gray;	
+}
+form p a {
+    color: gray;
+    text-decoration: none;
+}
+form p a:hover {
+    color: #926cd0;
+    text-decoration: underline;
+}
+.footer {
+    text-align: center;
+    margin-top: 100px;
+}
+.footer p {
+    font-family: Cabin-Regular;
+    color: ghostwhite;
+}
+.footer a {
+    font-family: Cabin-Regular;
+    color: #fff;
+    text-decoration: none;
+     -webkit-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     -o-transition: all 0.5s ease-in-out;
+     transition: all 0.5s ease-in-out;
+}
+.footer a:hover {
+    color: #000;
+    text-decoration: underline;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+      transition: all 0.5s ease-in-out;
+}
+
+/*--- Index-Page-Styling ---*/
+
+/*--- Responsinator Code ---*/
+
+@media (max-width:1920px) {
+    .signin input[type="text"] {
+	    width: 84.5%;
+		margin-bottom: 25px;
+	}
+	.signin input[type="password"] {
+	    width: 84.5%;
+		margin-bottom: 25px;
+	}
+	.signin input[type="submit"] {
+        width: 90.5%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:1680px) {
+    .signin input[type="text"] {
+		margin-bottom: 25px;
+	}
+	.signin input[type="password"] {
+		margin-bottom: 25px;
+	}
+	.signin input[type="submit"] {
+        width: 91%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:1600px) {
+    .signin input[type="text"] {
+		margin-bottom: 25px;
+	}
+	.signin input[type="password"] {
+		margin-bottom: 25px;
+	}
+	.signin input[type="submit"] {
+        width: 92%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:1440px) {
+    .signin input[type="text"] {
+		margin-bottom: 25px;
+	}
+	.signin input[type="password"] {
+		margin-bottom: 25px;
+	}
+	.signin input[type="submit"] {
+        width: 92.5%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:1366px) {
+    .signin input[type="text"] {
+		margin-bottom: 25px;
+	}
+	.signin input[type="password"] {
+		margin-bottom: 25px;
+	}
+	.signin input[type="submit"] {
+        width: 93%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:1280px) {
+	.signin input[type="submit"] {
+        width: 93.5%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:1200px) {
+    .signin input[type="text"] {
+	    width: 84%;
+	}
+	.signin input[type="password"] {
+	    width: 84%;
+	}
+}
+@media (max-width:1080px) {
+    .signin input[type="text"] {
+	    width: 83%;
+	}
+	.signin input[type="password"] {
+	    width: 83%;
+	}
+}
+@media (max-width:1024px) {
+    .contact-form {
+	    width: 50%;
+    }
+    .signin input[type="text"] {
+	    width: 80%;
+	}
+	.signin input[type="password"] {
+	    width: 80%;
+	}
+	.signin input[type="submit"] {
+        width: 91%;
+		margin-bottom: 20px;
+	}
+	.footer p {
+	    margin-top: 50px;
+	}
+}
+@media (max-width:991px) {
+    .contact-form {
+	    width: 50%;
+	}
+}
+
+@media (max-width:966px) {
+    .contact-form {
+	    width: 50%;
+	}
+	.signin input[type="submit"] {
+        width: 90%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:900px) {
+    .signin input[type="text"] {
+	    width: 81%;
+	}
+	.signin input[type="password"] {
+	    width: 81%;
+	}
+}
+@media (max-width:853px) {
+    .contact-form {
+	    width: 50%;
+	}
+	.signin input[type="submit"] {
+        width: 92%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:800px) {
+    .contact-form {
+	    width: 50%;
+	}
+	.signin input[type="submit"] {
+        width: 92%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:768px) {
+    .contact-form {
+        width: 55%;
+    }	
+	h1 {
+		margin-top: 40px;
+	}
+	.signin {
+        margin-top: 40px;
+	}
+}
+@media (max-width:736px) {
+    .contact-form {
+	    width: 70%;
+	}
+	h1 {
+		margin-top: 40px;
+	}
+	.signin {
+        margin-top: 40px;
+	}
+	.signin input[type="submit"] {
+		width: 90%;
+	}
+	.footer p {
+        margin-top: -65px;
+    }
+}
+@media (max-width:667px) {
+    .contact-form {
+	    width: 60%;
+	}
+	h1 {
+		margin-top: 40px;
+	}
+	.signin {
+        margin-top: 40px;
+	}
+	.signin input[type="submit"] {
+        width: 93%;
+		margin-bottom: 20px;
+	}
+	.footer p {
+        margin-top: -65px;
+    }
+}
+@media (max-width:640px) {
+    .contact-form {
+	    width: 60%;
+	}
+
+	.signin input[type="submit"] {
+        width: 93.5%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:603px) {
+    .contact-form {
+	    width: 60%;
+	}
+	.signin input[type="submit"] {
+        width: 93%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:600px) {
+    .contact-form {
+	    width: 60%;
+	}
+	.signin input[type="submit"] {
+        width: 93.5%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:568px) {
+    .contact-form {
+	    width: 65%;
+	}
+	h1 {
+		margin-top: 40px;
+		font-size: 30px;
+	}
+	.signin {
+        margin-top: 40px;
+	}
+    .signin input[type="text"] {
+	}
+	.signin input[type="password"] {
+	}
+	.footer p {
+        margin-top: -65px;
+    }
+}
+@media (max-width:533px) {
+    .contact-form {
+	    width: 70%;
+	}
+}
+@media (max-width:414px) {
+    .contact-form {
+	    width: 90%;
+	}
+	
+	h1 {
+		margin-top: 60px;
+		font-size: 28px;
+	}
+	.signin {
+        margin-top: 60px;
+	}
+	.footer p {
+        margin-top: -25px;
+    }
+}
+@media (max-width:384px) {
+    .contact-form {
+	    width: 90%;
+	}
+	h1 {
+	    font-size: 26px;
+	}
+}
+@media (max-width:375px) {
+    .contact-form {
+	    width: 90%;
+	}
+	.signin input[type="submit"] {
+        width: 94.5%;
+		margin-bottom: 20px;
+	}
+}
+@media (max-width:360px) {
+    .contact-form {
+	    width: 90%;
+	}
+	h1 {
+		margin-top: 40px;
+		font-size: 24px;
+	}
+	.signin {
+        margin-top: 40px;
+	}
+}
+@media (max-width:320px) {
+    .contact-form {
+	    width: 91%;
+	}
+	h1 {
+	    font-size: 23px;
+		margin-top: 40px;
+	}
+	.signin {
+        margin-top: 40px;
+	}
+    .signin input[type="text"] {
+		width: 75%;
+	}
+	.signin input[type="password"] {
+	    width: 75%;
+	}
+	.signin input[type="submit"] {
+        width: 93%;
+		margin-bottom: 20px;
+	}
+    .footer p {
+        margin-top: -70px;
+        font-size: 13px;
+    }
+}
+@media (max-width:240px) {
+    .contact-form {
+        width: 95%;
+    }
+    h1 {
+        font-size: 16px;
+        margin-top: 40px;
+    }
+	.signin input[type="text"] {
+        width: 70%;
+        font-size: 12px;
+    }
+    .signin input[type="password"] {
+        width: 70%;
+        font-size: 12px;
+    }
+	form p a {
+	    font-size: 12px;
+	}
+}
+
+
+/*--- Responsinator Code ---*/
